@@ -1,3 +1,5 @@
+# Count the string backwards.
+
 count = 0
 strg = 'Banana'
 
