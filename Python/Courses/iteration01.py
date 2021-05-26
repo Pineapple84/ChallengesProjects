@@ -1,3 +1,5 @@
+# Find the Total, Count, Average of the number.
+
 t = 'true'
 summ = 0
 count = 0
