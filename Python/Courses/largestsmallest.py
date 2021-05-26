@@ -1,4 +1,4 @@
-// Find the maximun number and minimum number.
+# Find the maximun number and minimum number.
 
 t = 'True'
 largest = None
