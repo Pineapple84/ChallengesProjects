@@ -1,4 +1,5 @@
 # Find the half of guessing number in range 100.
+# IN PROGRESS...
 
 half = 50
 guess = input("Guess your number: ")
