@@ -18,7 +18,8 @@ for guess in range(100):
             new_val = value_01 + (value_01 / part)
             print(new_val)
             value_01 = new_val
-        part *= 2
+            part *= 2
+            continue
         
     if guess <= -1 or guess > 100:
         break
