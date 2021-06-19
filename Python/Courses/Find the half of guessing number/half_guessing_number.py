@@ -9,22 +9,22 @@ for guess in range(100):
     
     if ans == "higher":
         value = half + (half / 2)
-        print(value)
+        print(round(value))
     if ans == "lower":
         value = half / 2
-        print(value)
+        print(round(value))
         
     while part <= 200:
         ans_02 = input("Is number is higher or lower than previous number" + " ?")
         if ans_02 == "higher":
             new_val = value + (value / part)
-            print(new_val)
+            print(round(new_val))
             value = new_val
             part *= 2
             continue
         if ans_02 == "lower":
             new_val = value / part
-            print(new_val)
+            print(round(new_val))
             value = new_val
             part *= 2
             continue
