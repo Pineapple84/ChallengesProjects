@@ -1,4 +1,4 @@
-# IN PROGRESS....
+# Find and guess the number
 
 half = 50
 part = 4
