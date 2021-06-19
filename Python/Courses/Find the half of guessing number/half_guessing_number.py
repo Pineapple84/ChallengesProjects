@@ -1,4 +1,5 @@
 # Find and guess the number
+# IN PROGRESS ....
 
 half = 50
 part = 4
@@ -9,25 +10,23 @@ for guess in range(100):
     
     if ans == "higher":
         value = half + (half / 2)
-        print(round(value))
+        print(value)
     if ans == "lower":
         value = half / 2
-        print(round(value))
+        print(value)
         
-    while part <= 200:
+    while part != 0:
         ans_02 = input("Is number is higher or lower than previous number" + " ?")
         if ans_02 == "higher":
             new_val = value + (value / part)
-            print(round(new_val))
+            print(new_val)
             value = new_val
             part *= 2
-            continue
         if ans_02 == "lower":
             new_val = value / part
-            print(round(new_val))
+            print(new_val)
             value = new_val
             part *= 2
-            continue
         
     if guess <= -1 or guess > 100:
         break
